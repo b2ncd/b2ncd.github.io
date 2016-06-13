@@ -1,0 +1,242 @@
+/*
+ * Author: Ampling Consultancy
+ * URL: http://ampling.com
+ *
+ * Project Name: New Design
+ * Version: 1.0
+ * Date: 05-31-2016
+ * URL: 
+ */
+
+
+/* ============
+GENERAL
+============ */
+.wrap {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.off-canvas-wrapper {
+  background-color: #222;
+}
+
+.off-canvas-wrapper-inner {
+  background-color: white;
+}
+
+
+/* ============
+NAV-MOBILE
+============ */
+.title-bar {
+  background-color: #222;
+  opacity: 0.95;
+  height: 60px;
+  padding-top: 16px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.title-bar a {
+  color: rgba(255,255,255,0.8);
+}
+
+.site-logo-mobile {
+  padding: 0 0 0 4.5%;
+}
+
+#mobile-menu {
+  background-color: #222;
+  padding: 20px;
+}
+
+#mobile-menu li {
+  list-style: none;
+}
+
+#mobile-menu a {
+  color: rgba(255,255,255,0.6);
+  font-weight: bold;
+  line-height: 2;
+}
+
+#mobile-menu a:hover {
+  color: rgba(255,255,255,0.8);
+}
+
+#mobile-menu p {
+  color: rgba(255,255,255,0.4);
+}
+
+.js-off-canvas-exit {
+  background: rgba(0,0,0,0.5);
+}
+
+
+/* ============
+NAV-DESKTOP
+============ */
+.nav-desktop {
+  background-color: #222;
+  opacity: 0.95;
+  height: 80px;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.site-logo {
+  color: white;
+  line-height: 80px;
+}
+
+.nav-desktop .menu-desktop {
+  background-color: transparent;
+  line-height: 80px;
+}
+
+.menu > li > a {
+  display: inline-block;
+  line-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: white;
+} 
+
+
+.menu > li > a:hover {
+  background-color: rgba(255,255,255, 0.1);
+  transition: width 6s;
+}
+
+/* ============
+HERO
+============ */
+.hero {
+  background-color: silver;
+  padding: 80px 0px;
+  height: 400px;
+  background-image: url("../img/concrete_wall.png");
+}
+
+.hero h1, 
+.hero p {
+  color: rgba(255,255,255,0.9);
+  width: 70%;
+  margin-top: 20px;
+}
+
+.hero img {
+}
+
+.hero .tape {
+  position: absolute;
+  /*margin-top: 10px;*/
+  top: 355px;
+  max-width: 50%;
+  right: 0px;
+}
+
+/* ============
+MAIN
+============ */
+.main {
+  padding: 0 0 120px 0;
+}
+
+#about {
+  padding: 120px 0 0 0;
+}
+
+#services,
+#careers {
+  padding: 120px 0 0 0;
+}
+
+.seperator {
+  width: 100%;
+  padding: 25px 0 0 0;
+}
+
+.award img {
+  width: 70%;
+  height: auto;
+  padding: 20px 0 0 0;
+}
+
+.wrap .award {
+  padding: 0 10px;
+}
+
+
+/* ============
+FOOTER
+============ */
+footer {
+  background-color: #222;
+  padding: 80px 0px;
+}
+
+footer h4 {
+  color: rgba(255,255,255,0.8);
+  font-size: 1.3em;
+}
+
+footer hr {
+  border-color: rgba(255,255,255,0.1); 
+  margin: 10px 0;
+}
+
+footer a {
+  display: block;
+  color: rgba(255,255,255,0.6);
+  font-size: 0.8em;
+}
+
+footer a span {
+  font-weight: bold;
+  color: rgba(255,255,255,0.3);
+}
+
+footer a:hover {
+  color: rgba(255,255,255,0.8);
+}
+
+footer .columns {
+  padding-bottom: 20px;
+}
+
+/* ============
+MEDIA QUERY
+============ */
+
+/* MOBILE  */
+@media (max-width: 639px) {
+  .nav-desktop {
+    display: none;
+  }
+}
+
+
+/* MEDIUM */
+@media (max-width: 875px) {
+  .hero h1,
+  .hero p {
+    width: 100%;
+  }
+  .hero p {
+    font-size: 1.2em;
+  }
+  #about,
+  #services,
+  #careers {
+    padding: 80px 0 0 0;
+
+  }
+
+}
+
