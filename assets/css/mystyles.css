@@ -30,14 +30,16 @@ GENERAL
 /* ============
 NAV-MOBILE
 ============ */
+
 .title-bar {
   background-color: #222;
   opacity: 0.95;
   height: 60px;
-  padding-top: 16px;
+  padding-top: 10px;
   position: fixed;
   width: 100%;
   z-index: 1;
+  font-size: 1.4em;
 }
 
 .title-bar a {
@@ -73,6 +75,19 @@ NAV-MOBILE
 
 .js-off-canvas-exit {
   background: rgba(0,0,0,0.5);
+}
+
+
+
+/* ============
+DYNAMIC MOBILE SIDE MENU
+============ */
+.hamburger {
+  margin: 0 50px 0 0;
+}
+
+#msidemenu h2 {
+  margin: 30px 0 0 0;
 }
 
 
@@ -136,7 +151,7 @@ HERO
 .hero .tape {
   position: absolute;
   /*margin-top: 10px;*/
-  top: 355px;
+  top: 320px;
   max-width: 50%;
   right: 0px;
 }
@@ -145,13 +160,10 @@ HERO
 MAIN
 ============ */
 .main {
-  padding: 0 0 120px 0;
+  padding: 80px 0 120px 0;
 }
 
-#about {
-  padding: 120px 0 0 0;
-}
-
+#about, 
 #services,
 #careers {
   padding: 120px 0 0 0;
@@ -159,7 +171,7 @@ MAIN
 
 .seperator {
   width: 100%;
-  padding: 25px 0 0 0;
+  padding: 80px 0 0 0;
 }
 
 .award img {
@@ -209,6 +221,18 @@ footer a:hover {
 footer .columns {
   padding-bottom: 20px;
 }
+
+footer .tm hr {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: rgba(255,255,255,0.02);
+}
+
+footer .tm span {
+  color: rgba(255,255,255,0.05);
+}
+
 
 /* ============
 MEDIA QUERY
