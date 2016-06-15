@@ -44,9 +44,9 @@ body {  /* fix webkit adjacent sibling bug */
     /* border color */
     border-width: 0.6em 0;
     cursor: pointer;
-    -moz-transition: all 0.3s ease-in;
-    -webkit-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     /* transition for animating label */
 }
 
@@ -66,9 +66,9 @@ body {  /* fix webkit adjacent sibling bug */
     -moz-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
-    -moz-transition: all 0.3s ease-in;
-    -webkit-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     /* transition for flipping label */
 }
 
@@ -103,9 +103,9 @@ body {  /* fix webkit adjacent sibling bug */
     /* IE10+ */
     background: radial-gradient(ellipse at center, rgba(242,242,242,1) 0%,rgba(219,219,219,1) 100%);
     /* W3C */
-    -moz-transition: all 0.3s ease-in;
-    -webkit-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     /* transition for animating nav in and out */
 }
 
@@ -171,9 +171,9 @@ body {  /* fix webkit adjacent sibling bug */
     font-size: 16px;
     margin-top: 2px;
     margin-left: 6px;
-    -moz-transition: all 0.3s ease-in;
-    -webkit-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .mobilesidemenu .overlay {
