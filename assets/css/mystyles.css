@@ -87,7 +87,7 @@ DYNAMIC MOBILE SIDE MENU
 }
 
 #msidemenu h2 {
-  margin: 30px 0 0 0;
+  margin: 0px 0 0 0;
 }
 
 
@@ -160,13 +160,11 @@ HERO
 MAIN
 ============ */
 .main {
-  padding: 80px 0 120px 0;
+  padding: 0 0 120px 0;
 }
 
-#about, 
-#services,
-#careers {
-  padding: 120px 0 0 0;
+.zone {
+  padding: 80px 0 0 0;
 }
 
 .seperator {
@@ -190,7 +188,7 @@ FOOTER
 ============ */
 footer {
   background-color: #222;
-  padding: 80px 0px;
+  padding: 0px 0px;
 }
 
 footer h4 {
@@ -243,6 +241,11 @@ MEDIA QUERY
   .nav-desktop {
     display: none;
   }
+  .seperator {
+    width: 100%;
+    padding: 40px 0 0 0;
+  }
+
 }
 
 
@@ -255,12 +258,12 @@ MEDIA QUERY
   .hero p {
     font-size: 1.2em;
   }
-  #about,
-  #services,
-  #careers {
-    padding: 80px 0 0 0;
 
-  }
 
 }
+@media (min-width: 640px) {
 
+  .zone {
+    padding: 120px 0;
+  }
+}

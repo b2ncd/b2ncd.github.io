@@ -40,7 +40,7 @@ body {  /* fix webkit adjacent sibling bug */
     left: 0;
     background: white;
     text-indent: -1000px;
-    border: 0.6em solid black;
+    border: 0.6em solid #222;
     /* border color */
     border-width: 0.6em 0;
     cursor: pointer;
@@ -61,7 +61,7 @@ body {  /* fix webkit adjacent sibling bug */
     top: 50%;
     margin-top: -0.3em;
     left: 0;
-    background: black;
+    background: #222;
     /* stripes background color. Change to match border color of parent label above */
     -moz-transform: rotate(0);
     -webkit-transform: rotate(0);
@@ -111,7 +111,7 @@ body {  /* fix webkit adjacent sibling bug */
 
 
 .mobilesidemenu nav h2 {
-    color: black;
+    color: #222;
     margin-bottom: 10px;
     border-bottom: 2px solid #73462d;
 }
@@ -132,7 +132,7 @@ body {  /* fix webkit adjacent sibling bug */
     text-decoration: none;
     font-size: 1.4em;
     /* font size of menu links */
-    border-left: 8px solid gray;
+    border-left: 8px solid silver;
     border-bottom: 1px solid #c1c1c1;
     color: #3b3b3b;
     margin: 0;
@@ -140,7 +140,7 @@ body {  /* fix webkit adjacent sibling bug */
 }
 
 .mobilesidemenu li a:hover {
-    background: black;
+    background: #222;
     color: white;
 }
 
@@ -157,8 +157,8 @@ body {  /* fix webkit adjacent sibling bug */
     border-radius: 0 0 0 40px;
     width: 40px;
     height: 30px;
-    background: black;
-    box-shadow: 0 0 5px gray;
+    background: #222;
+    /* box-shadow: 0 0 5px gray;*/
     text-align: center;
 }
 
@@ -184,7 +184,7 @@ body {  /* fix webkit adjacent sibling bug */
     left: 0;
     top: 0;
     opacity: .6;
-    background: black;
+    background: #222;
     z-index: 1001;
     visibility: hidden;
 }
@@ -239,30 +239,10 @@ body {  /* fix webkit adjacent sibling bug */
 <style>
 
 .mobilesidemenu > label{
-	border: 6px solid black;
+	border: 6px solid #222;
 	background: #eee;
 	height: 30px;
 }
 
 </style>
-
-<script>
- // ie 8 menu compatibility code:
-document.createElement("nav")
-window.onload = function(){
-	var mobilemenunav = document.getElementById("msidemenu")
-	var mobilemaintoggler = document.getElementById("maintoggler")
-	var mobilenavtoggler = document.getElementById("navtoggler")
-	mobilemaintoggler.onclick = function(){
-		mobilemenunav.style.left = 0
-	}
-	mobilenavtoggler.onclick = function(){
-		mobilemenunav.style.left = '-100%'
-	}
-}
-
-</script>
-
-
-<![endif]-->
 
