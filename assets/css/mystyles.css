@@ -156,7 +156,7 @@ HERO
     transition: 1s;
 }
 
-.tapewrapper:active #slide {
+.tapewrapper:hover #slide {
     transition: 1s;
     right: -99%;
 }
