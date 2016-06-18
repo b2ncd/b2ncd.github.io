@@ -139,7 +139,7 @@ body {  /* fix webkit adjacent sibling bug */
     padding: 12px;
 }
 
-.mobilesidemenu li a:hover {
+.mobilesidemenu li a:active {
     background: #222;
     color: white;
 }
@@ -197,7 +197,7 @@ body {  /* fix webkit adjacent sibling bug */
 }
 
 
-.mobilesidemenu nav label:hover::after {
+.mobilesidemenu nav label:active::after {
     /* state of NAV label::after when mouse moves over */
     -moz-transform: rotatey(180deg);
     -ms-transform: rotatey(180deg);
@@ -206,28 +206,28 @@ body {  /* fix webkit adjacent sibling bug */
     /* flip labels vertically onMouseover */
 }
 
-.mobilesidemenu input[type="checkbox"]:checked ~ label {
+.mobilesidemenu input[type="checkbox"]:active ~ label {
     /* state of main menu label when menu is open  */
     border-color: transparent;
 }
 
-.mobilesidemenu input[type="checkbox"]:checked ~ label::before {
+.mobilesidemenu input[type="checkbox"]:active ~ label::before {
     /* state of main menu label::before when menu is open  */
     transform: rotate(-45deg);
 }
 
-.mobilesidemenu input[type="checkbox"]:checked ~ label::after {
+.mobilesidemenu input[type="checkbox"]:active ~ label::after {
     /* state of main menu label::after when menu is open  */
     transform: rotate(45deg);
 }
 
-.mobilesidemenu input[type="checkbox"]:checked ~ nav {
+.mobilesidemenu input[type="checkbox"]:active ~ nav {
     /* state of NAV when menu is open  */
     left: 0;
     /* set left to 0 to animate it into view  */
 }
 
-.mobilesidemenu input[type="checkbox"]:checked ~ div.overlay {
+.mobilesidemenu input[type="checkbox"]:active ~ div.overlay {
     /* state of overlay when menu is open  */
     visibility: visible;
 }
