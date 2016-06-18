@@ -145,7 +145,6 @@ HERO
     overflow: hidden;
     width: 56%;
     height: 50px; 
-    border: 1px solid black;
 }
 
 #slide {
@@ -159,7 +158,7 @@ HERO
 
 .tapewrapper:active #slide {
     transition: 1s;
-    right: -100%;
+    right: -99%;
 }
 
 
