@@ -139,8 +139,9 @@ HERO
 
 
 .tapewrapper {
-    background-image: url("../img/tape.svg"); 
-    background-size: 100% 100%;
+    background-image: url("../img/tape7.png"); 
+    background-size: 600px auto;
+    background-repeat: no-repeat;
     position: absolute;
     top: 280px;
     right: 0px;
@@ -150,15 +151,15 @@ HERO
 }
 
 .tapewrapper:active {
-    transition: 3s;
-    right: -99%;
+    transition: .5s ease-in-out;
+    right: -55%;
 }
 
 
 
 
 
-#prints {
+.blueprints {
   position: absolute;
   top: 250px;
   right: 0;
@@ -170,8 +171,8 @@ HERO
   background-repeat: no-repeat;
   z-index: 0.1;
 }
-#prints p {
-  padding: 105px 0 0 10px;
+.blueprints p {
+  padding: 103px 0 0 10px;
   font-size: .8em;
   text-align: left;
   width: 800px;
