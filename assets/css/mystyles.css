@@ -25,12 +25,12 @@ NAV-MOBILE
 
 .title-bar {
   background-color: #222;
-  opacity: 0.95;
+  opacity: 0.90;
   height: 60px;
   padding-top: 10px;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
   font-size: 1.4em;
 }
 
@@ -83,12 +83,12 @@ NAV-DESKTOP
 ============ */
 .nav-desktop {
   background-color: #222;
-  opacity: 0.95;
+  opacity: 0.90;
   height: 80px;
   padding: 0;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
 }
 
 .site-logo {
@@ -139,22 +139,21 @@ HERO
 
 
 .tapewrapper {
-    background-image: url("../img/tape7.png"); 
-    background-size: 600px auto;
-    background-repeat: no-repeat;
+    background-image: url("../img/tape.png"); 
+    background-size: auto auto;
     position: absolute;
-    top: 280px;
+    top: 275px;
     right: 0px;
     overflow: hidden;
     width: 56%;
-    height: 50px; 
+    height: 100px; 
+    z-index: 1;
 }
 
 .tapewrapper:active {
     transition: .5s ease-in-out;
     right: -55%;
 }
-
 
 
 
@@ -174,7 +173,7 @@ HERO
 .blueprints p {
   padding: 103px 0 0 10px;
   font-size: .8em;
-  text-align: left;
+  text-align: center;
   width: 800px;
 }
 
