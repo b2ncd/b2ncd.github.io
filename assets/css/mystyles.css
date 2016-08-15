@@ -66,6 +66,17 @@ NAV-MOBILE
 }
 
 
+
+.truck {
+  background-image: url("../img/truck.gif");
+  background-repeat: no-repeat;
+  width: 262px;
+  height: 174px;
+  opacity: 0.90;
+}
+
+
+
 /* ============
 DYNAMIC MOBILE SIDE MENU
 ============ */
