@@ -40,6 +40,9 @@ NAV-MOBILE
 
 .site-logo-mobile {
   padding: 0 0 0 4.5%;
+  font-weight: bold;
+  font-family: serif;
+
 }
 
 #mobile-menu {
@@ -105,6 +108,8 @@ NAV-DESKTOP
 .site-logo {
   color: white;
   line-height: 80px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .nav-desktop .menu-desktop {
