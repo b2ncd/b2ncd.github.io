@@ -139,10 +139,10 @@ HERO
 
 
 .tapewrapper {
-    background-image: url("../img/tape.png"); 
+    background-image: url("../img/tape-sm.png"); 
     background-size: auto auto;
     position: absolute;
-    top: 275px;
+    top: 270px;
     right: 0px;
     overflow: hidden;
     width: 56%;
@@ -171,7 +171,7 @@ HERO
   z-index: 0.1;
 }
 .blueprints p {
-  padding: 103px 0 0 10px;
+  padding: 110px 0 0 10px;
   font-size: .8em;
   text-align: center;
   width: 800px;
@@ -289,6 +289,10 @@ MEDIA QUERY
   .hero p {
     font-size: 1.2em;
   }
+  .blueprints p {
+    padding: 105px 0 0 10px;
+    font-size: 1em;
+  }
 
 
 }
@@ -296,5 +300,8 @@ MEDIA QUERY
 
   .zone {
     padding: 120px 0;
+  }
+  .tapewrapper {
+        background-image: url("../img/tape-lg.png");
   }
 }
